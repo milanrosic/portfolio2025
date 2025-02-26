@@ -144,3 +144,12 @@ section {
 .experience-details p {
     color: black;
 }
+
+/* Reduce White Space Above About Me */
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75vh; /* Reduce height from 100vh to 85vh */
+    padding: 10px 20px; /* Reduce padding slightly */
+}
